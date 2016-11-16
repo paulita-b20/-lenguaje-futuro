@@ -1,3 +1,92 @@
 /*
 	Inserta tu CSS aqui
 */
+body{
+	font-family:"Open-sans",sans-serif;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.caja{
+	background-image: url(../img/grupal.jpg);
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat center center;
+	background-size: cover;
+
+}
+
+.sumate{
+	background-color: #fcb739;
+	border: 1px solid #fcb739;
+	border-radius: 4px;
+	height:40px;
+	width: 92px;
+	position: absolute;
+	top: 75px;
+	left:110px;
+}
+
+.logo{
+	position: absolute;
+	width: 500px;
+	top: 90px;
+	left: 350px;
+}
+
+.menu{
+   position: relative;
+   top:75px;
+       
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+section{
+	padding: 10px;
+}
+
+.foto{
+	height: 240px;
+	max-width: 100%;
+}
+
+.texto{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+	background-color: #323230;
+	color: whitesmoke;
+    height: 70px;
+    padding-top: 30px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
